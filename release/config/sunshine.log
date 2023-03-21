@@ -1,0 +1,288 @@
+[2023:03:22:02:24:38]: Info: Compiling shaders...
+[2023:03:22:02:24:38]: Info: Compiled shaders
+[2023:03:22:02:24:38]: Warning: Couldn't setup connection to ViGEm for gamepad support [E0000001]
+[2023:03:22:02:24:38]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2023:03:22:02:24:38]: Info: Trying encoder [nvenc]
+[2023:03:22:02:24:39]: Info: ddprobe.exe [1] [] returned: 0x00000000
+[2023:03:22:02:24:39]: Info: Set GPU preference: 1
+[2023:03:22:02:24:40]: Info: 
+Device Description : NVIDIA GRID P4-1Q
+Device Vendor ID   : 0x000010DE
+Device Device ID   : 0x00001BB3
+Device Video Mem   : 914 MiB
+Device Sys Mem     : 0 MiB
+Share Sys Mem      : 8191 MiB
+Feature Level      : 0x0000B100
+Capture size       : 1600x900
+Offset             : 0x0
+Virtual Desktop    : 1600x900
+[2023:03:22:02:24:40]: Warning: Failed to set realtime GPU priority. Please run application as administrator for optimal performance.
+[2023:03:22:02:24:40]: Info: Desktop resolution [1600x900]
+[2023:03:22:02:24:40]: Info: Desktop format [DXGI_FORMAT_B8G8R8A8_UNORM]
+[2023:03:22:02:24:40]: Info: 
+Colorspace         : DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+Bits Per Color     : 8
+Red Primary        : [0.638672,0.329102]
+Green Primary      : [0.296875,0.599609]
+Blue Primary       : [0.150391,0.0615234]
+White Point        : [0.3125,0.328125]
+Min Luminance      : 0.5 nits
+Max Luminance      : 270 nits
+Max Full Luminance : 270 nits
+[2023:03:22:02:24:40]: Info: SDR color coding [Rec. 601]
+[2023:03:22:02:24:40]: Info: Color range: [JPEG]
+[2023:03:22:02:24:40]: Error: Could not open codec [h264_nvenc]: Function not implemented
+[2023:03:22:02:24:41]: Info: 
+Device Description : NVIDIA GRID P4-1Q
+Device Vendor ID   : 0x000010DE
+Device Device ID   : 0x00001BB3
+Device Video Mem   : 914 MiB
+Device Sys Mem     : 0 MiB
+Share Sys Mem      : 8191 MiB
+Feature Level      : 0x0000B100
+Capture size       : 1600x900
+Offset             : 0x0
+Virtual Desktop    : 1600x900
+[2023:03:22:02:24:41]: Warning: Failed to set realtime GPU priority. Please run application as administrator for optimal performance.
+[2023:03:22:02:24:41]: Info: Desktop resolution [1600x900]
+[2023:03:22:02:24:41]: Info: Desktop format [DXGI_FORMAT_B8G8R8A8_UNORM]
+[2023:03:22:02:24:41]: Info: 
+Colorspace         : DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+Bits Per Color     : 8
+Red Primary        : [0.638672,0.329102]
+Green Primary      : [0.296875,0.599609]
+Blue Primary       : [0.150391,0.0615234]
+White Point        : [0.3125,0.328125]
+Min Luminance      : 0.5 nits
+Max Luminance      : 270 nits
+Max Full Luminance : 270 nits
+[2023:03:22:02:24:41]: Info: SDR color coding [Rec. 601]
+[2023:03:22:02:24:41]: Info: Color range: [JPEG]
+[2023:03:22:02:24:42]: Info: 
+Device Description : NVIDIA GRID P4-1Q
+Device Vendor ID   : 0x000010DE
+Device Device ID   : 0x00001BB3
+Device Video Mem   : 914 MiB
+Device Sys Mem     : 0 MiB
+Share Sys Mem      : 8191 MiB
+Feature Level      : 0x0000B100
+Capture size       : 1600x900
+Offset             : 0x0
+Virtual Desktop    : 1600x900
+[2023:03:22:02:24:42]: Warning: Failed to set realtime GPU priority. Please run application as administrator for optimal performance.
+[2023:03:22:02:24:42]: Info: Desktop resolution [1600x900]
+[2023:03:22:02:24:42]: Info: Desktop format [DXGI_FORMAT_B8G8R8A8_UNORM]
+[2023:03:22:02:24:42]: Info: 
+Colorspace         : DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+Bits Per Color     : 8
+Red Primary        : [0.638672,0.329102]
+Green Primary      : [0.296875,0.599609]
+Blue Primary       : [0.150391,0.0615234]
+White Point        : [0.3125,0.328125]
+Min Luminance      : 0.5 nits
+Max Luminance      : 270 nits
+Max Full Luminance : 270 nits
+[2023:03:22:02:24:42]: Info: SDR color coding [Rec. 601]
+[2023:03:22:02:24:42]: Info: Color range: [JPEG]
+[2023:03:22:02:24:43]: Info: 
+Device Description : NVIDIA GRID P4-1Q
+Device Vendor ID   : 0x000010DE
+Device Device ID   : 0x00001BB3
+Device Video Mem   : 914 MiB
+Device Sys Mem     : 0 MiB
+Share Sys Mem      : 8191 MiB
+Feature Level      : 0x0000B100
+Capture size       : 1600x900
+Offset             : 0x0
+Virtual Desktop    : 1600x900
+[2023:03:22:02:24:43]: Warning: Failed to set realtime GPU priority. Please run application as administrator for optimal performance.
+[2023:03:22:02:24:43]: Info: Desktop resolution [1600x900]
+[2023:03:22:02:24:43]: Info: Desktop format [DXGI_FORMAT_B8G8R8A8_UNORM]
+[2023:03:22:02:24:43]: Info: 
+Colorspace         : DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+Bits Per Color     : 8
+Red Primary        : [0.638672,0.329102]
+Green Primary      : [0.296875,0.599609]
+Blue Primary       : [0.150391,0.0615234]
+White Point        : [0.3125,0.328125]
+Min Luminance      : 0.5 nits
+Max Luminance      : 270 nits
+Max Full Luminance : 270 nits
+[2023:03:22:02:24:43]: Info: SDR color coding [Rec. 601]
+[2023:03:22:02:24:43]: Info: Color range: [JPEG]
+[2023:03:22:02:24:43]: Error: Could not open codec [hevc_nvenc]: Function not implemented
+[2023:03:22:02:24:44]: Info: 
+Device Description : NVIDIA GRID P4-1Q
+Device Vendor ID   : 0x000010DE
+Device Device ID   : 0x00001BB3
+Device Video Mem   : 914 MiB
+Device Sys Mem     : 0 MiB
+Share Sys Mem      : 8191 MiB
+Feature Level      : 0x0000B100
+Capture size       : 1600x900
+Offset             : 0x0
+Virtual Desktop    : 1600x900
+[2023:03:22:02:24:44]: Warning: Failed to set realtime GPU priority. Please run application as administrator for optimal performance.
+[2023:03:22:02:24:44]: Info: Desktop resolution [1600x900]
+[2023:03:22:02:24:44]: Info: Desktop format [DXGI_FORMAT_B8G8R8A8_UNORM]
+[2023:03:22:02:24:44]: Info: 
+Colorspace         : DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+Bits Per Color     : 8
+Red Primary        : [0.638672,0.329102]
+Green Primary      : [0.296875,0.599609]
+Blue Primary       : [0.150391,0.0615234]
+White Point        : [0.3125,0.328125]
+Min Luminance      : 0.5 nits
+Max Luminance      : 270 nits
+Max Full Luminance : 270 nits
+[2023:03:22:02:24:44]: Info: SDR color coding [Rec. 601]
+[2023:03:22:02:24:44]: Info: Color range: [JPEG]
+[2023:03:22:02:24:45]: Info: 
+Device Description : NVIDIA GRID P4-1Q
+Device Vendor ID   : 0x000010DE
+Device Device ID   : 0x00001BB3
+Device Video Mem   : 914 MiB
+Device Sys Mem     : 0 MiB
+Share Sys Mem      : 8191 MiB
+Feature Level      : 0x0000B100
+Capture size       : 1600x900
+Offset             : 0x0
+Virtual Desktop    : 1600x900
+[2023:03:22:02:24:45]: Warning: Failed to set realtime GPU priority. Please run application as administrator for optimal performance.
+[2023:03:22:02:24:45]: Info: Desktop resolution [1600x900]
+[2023:03:22:02:24:45]: Info: Desktop format [DXGI_FORMAT_B8G8R8A8_UNORM]
+[2023:03:22:02:24:45]: Info: 
+Colorspace         : DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+Bits Per Color     : 8
+Red Primary        : [0.638672,0.329102]
+Green Primary      : [0.296875,0.599609]
+Blue Primary       : [0.150391,0.0615234]
+White Point        : [0.3125,0.328125]
+Min Luminance      : 0.5 nits
+Max Luminance      : 270 nits
+Max Full Luminance : 270 nits
+[2023:03:22:02:24:46]: Info: SDR color coding [Rec. 709]
+[2023:03:22:02:24:46]: Info: Color range: [JPEG]
+[2023:03:22:02:24:46]: Error: Could not open codec [h264_nvenc]: Function not implemented
+[2023:03:22:02:24:46]: Info: 
+Device Description : NVIDIA GRID P4-1Q
+Device Vendor ID   : 0x000010DE
+Device Device ID   : 0x00001BB3
+Device Video Mem   : 914 MiB
+Device Sys Mem     : 0 MiB
+Share Sys Mem      : 8191 MiB
+Feature Level      : 0x0000B100
+Capture size       : 1600x900
+Offset             : 0x0
+Virtual Desktop    : 1600x900
+[2023:03:22:02:24:46]: Warning: Failed to set realtime GPU priority. Please run application as administrator for optimal performance.
+[2023:03:22:02:24:46]: Info: Desktop resolution [1600x900]
+[2023:03:22:02:24:46]: Info: Desktop format [DXGI_FORMAT_B8G8R8A8_UNORM]
+[2023:03:22:02:24:46]: Info: 
+Colorspace         : DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+Bits Per Color     : 8
+Red Primary        : [0.638672,0.329102]
+Green Primary      : [0.296875,0.599609]
+Blue Primary       : [0.150391,0.0615234]
+White Point        : [0.3125,0.328125]
+Min Luminance      : 0.5 nits
+Max Luminance      : 270 nits
+Max Full Luminance : 270 nits
+[2023:03:22:02:24:46]: Info: SDR color coding [Rec. 709]
+[2023:03:22:02:24:46]: Info: Color range: [JPEG]
+[2023:03:22:02:24:47]: Info: 
+Device Description : NVIDIA GRID P4-1Q
+Device Vendor ID   : 0x000010DE
+Device Device ID   : 0x00001BB3
+Device Video Mem   : 914 MiB
+Device Sys Mem     : 0 MiB
+Share Sys Mem      : 8191 MiB
+Feature Level      : 0x0000B100
+Capture size       : 1600x900
+Offset             : 0x0
+Virtual Desktop    : 1600x900
+[2023:03:22:02:24:47]: Warning: Failed to set realtime GPU priority. Please run application as administrator for optimal performance.
+[2023:03:22:02:24:48]: Info: Desktop resolution [1600x900]
+[2023:03:22:02:24:48]: Info: Desktop format [DXGI_FORMAT_B8G8R8A8_UNORM]
+[2023:03:22:02:24:48]: Info: 
+Colorspace         : DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+Bits Per Color     : 8
+Red Primary        : [0.638672,0.329102]
+Green Primary      : [0.296875,0.599609]
+Blue Primary       : [0.150391,0.0615234]
+White Point        : [0.3125,0.328125]
+Min Luminance      : 0.5 nits
+Max Luminance      : 270 nits
+Max Full Luminance : 270 nits
+[2023:03:22:02:24:48]: Info: SDR color coding [Rec. 601]
+[2023:03:22:02:24:48]: Info: Color range: [JPEG]
+[2023:03:22:02:24:49]: Info: 
+Device Description : NVIDIA GRID P4-1Q
+Device Vendor ID   : 0x000010DE
+Device Device ID   : 0x00001BB3
+Device Video Mem   : 914 MiB
+Device Sys Mem     : 0 MiB
+Share Sys Mem      : 8191 MiB
+Feature Level      : 0x0000B100
+Capture size       : 1600x900
+Offset             : 0x0
+Virtual Desktop    : 1600x900
+[2023:03:22:02:24:49]: Warning: Failed to set realtime GPU priority. Please run application as administrator for optimal performance.
+[2023:03:22:02:24:49]: Info: Desktop resolution [1600x900]
+[2023:03:22:02:24:49]: Info: Desktop format [DXGI_FORMAT_B8G8R8A8_UNORM]
+[2023:03:22:02:24:49]: Info: 
+Colorspace         : DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+Bits Per Color     : 8
+Red Primary        : [0.638672,0.329102]
+Green Primary      : [0.296875,0.599609]
+Blue Primary       : [0.150391,0.0615234]
+White Point        : [0.3125,0.328125]
+Min Luminance      : 0.5 nits
+Max Luminance      : 270 nits
+Max Full Luminance : 270 nits
+[2023:03:22:02:24:49]: Info: SDR color coding [Rec. 601]
+[2023:03:22:02:24:49]: Info: Color range: [JPEG]
+[2023:03:22:02:24:49]: Warning: nvenc: hevc: replacing nalu prefix data
+[2023:03:22:02:24:49]: Info: 
+[2023:03:22:02:24:49]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2023:03:22:02:24:49]: Info: 
+[2023:03:22:02:24:49]: Info: Found encoder nvenc: [h264_nvenc, hevc_nvenc]
+[2023:03:22:02:24:49]: Info: Configuration UI available at [https://localhost:47990]
+[2023:03:22:02:24:50]: Info: Registered Sunshine mDNS service
+[2023:03:22:02:25:07]: Info: /CN=NVIDIA GameStream Client -- verified
+[2023:03:22:02:25:07]: Info: /CN=NVIDIA GameStream Client -- verified
+[2023:03:22:02:25:09]: Info: /CN=NVIDIA GameStream Client -- verified
+[2023:03:22:02:25:10]: Info: /CN=NVIDIA GameStream Client -- verified
+[2023:03:22:02:25:13]: Info: /CN=NVIDIA GameStream Client -- verified
+[2023:03:22:02:25:16]: Info: /CN=NVIDIA GameStream Client -- verified
+[2023:03:22:02:25:16]: Info: Executing [Desktop]
+[2023:03:22:02:25:16]: Info: CLIENT CONNECTED
+[2023:03:22:02:25:16]: Error: Couldn't create audio Device [0x80070490]
+[2023:03:22:02:25:16]: Warning: There will be no audio
+[2023:03:22:02:25:17]: Info: 
+Device Description : NVIDIA GRID P4-1Q
+Device Vendor ID   : 0x000010DE
+Device Device ID   : 0x00001BB3
+Device Video Mem   : 914 MiB
+Device Sys Mem     : 0 MiB
+Share Sys Mem      : 8191 MiB
+Feature Level      : 0x0000B100
+Capture size       : 1600x900
+Offset             : 0x0
+Virtual Desktop    : 1600x900
+[2023:03:22:02:25:17]: Warning: Failed to set realtime GPU priority. Please run application as administrator for optimal performance.
+[2023:03:22:02:25:17]: Info: Desktop resolution [1600x900]
+[2023:03:22:02:25:17]: Info: Desktop format [DXGI_FORMAT_B8G8R8A8_UNORM]
+[2023:03:22:02:25:17]: Info: 
+Colorspace         : DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+Bits Per Color     : 8
+Red Primary        : [0.638672,0.329102]
+Green Primary      : [0.296875,0.599609]
+Blue Primary       : [0.150391,0.0615234]
+White Point        : [0.3125,0.328125]
+Min Luminance      : 0.5 nits
+Max Luminance      : 270 nits
+Max Full Luminance : 270 nits
+[2023:03:22:02:25:17]: Info: Capture format [DXGI_FORMAT_B8G8R8A8_UNORM]
+[2023:03:22:02:25:17]: Info: SDR color coding [Rec. 601]
+[2023:03:22:02:25:17]: Info: Color range: [MPEG]

@@ -420,7 +420,7 @@ inline void update_shortcutFlags(int *flags, short keyCode, bool release) {
 void repeat_key(short key_code) {
   // If key no longer pressed, stop repeating
   if(!key_press[key_code]) {
-    key_press_repeat_id = nullptr;
+       key_press_repeat_id = nullptr;
     return;
   }
 

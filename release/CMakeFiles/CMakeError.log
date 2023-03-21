@@ -1,0 +1,414 @@
+Determining if the function fcntl exists failed with the following output:
+Change Dir: C:/msys64/home/admin/sunshine/release/CMakeFiles/CMakeScratch/TryCompile-98ynfj
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_596b1/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_596b1.dir\build.make CMakeFiles/cmTC_596b1.dir/build
+mingw32-make[1]: Entering directory 'C:/msys64/home/admin/sunshine/release/CMakeFiles/CMakeScratch/TryCompile-98ynfj'
+Building C object CMakeFiles/cmTC_596b1.dir/CheckFunctionExists.c.obj
+C:\msys64\mingw64\bin\cc.exe   -DCHECK_FUNCTION_EXISTS=fcntl -o CMakeFiles\cmTC_596b1.dir\CheckFunctionExists.c.obj -c C:\msys64\home\admin\sunshine\release\CMakeFiles\CMakeScratch\TryCompile-98ynfj\CheckFunctionExists.c
+Linking C executable cmTC_596b1.exe
+C:\msys64\mingw64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_596b1.dir\link.txt --verbose=1
+C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_596b1.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\cmTC_596b1.dir/objects.a @CMakeFiles\cmTC_596b1.dir\objects1
+C:\msys64\mingw64\bin\cc.exe  -DCHECK_FUNCTION_EXISTS=fcntl -Wl,--whole-archive CMakeFiles\cmTC_596b1.dir/objects.a -Wl,--no-whole-archive -o cmTC_596b1.exe -Wl,--out-implib,libcmTC_596b1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_596b1.dir\linkLibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles\cmTC_596b1.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `fcntl'
+collect2.exe: error: ld returned 1 exit status
+mingw32-make[1]: *** [CMakeFiles\cmTC_596b1.dir\build.make:100: cmTC_596b1.exe] Error 1
+mingw32-make[1]: Leaving directory 'C:/msys64/home/admin/sunshine/release/CMakeFiles/CMakeScratch/TryCompile-98ynfj'
+mingw32-make: *** [Makefile:126: cmTC_596b1/fast] Error 2
+
+
+
+Determining if the function ioctl exists failed with the following output:
+Change Dir: C:/msys64/home/admin/sunshine/release/CMakeFiles/CMakeScratch/TryCompile-vlnln1
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_b7a3d/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_b7a3d.dir\build.make CMakeFiles/cmTC_b7a3d.dir/build
+mingw32-make[1]: Entering directory 'C:/msys64/home/admin/sunshine/release/CMakeFiles/CMakeScratch/TryCompile-vlnln1'
+Building C object CMakeFiles/cmTC_b7a3d.dir/CheckFunctionExists.c.obj
+C:\msys64\mingw64\bin\cc.exe   -DCHECK_FUNCTION_EXISTS=ioctl -o CMakeFiles\cmTC_b7a3d.dir\CheckFunctionExists.c.obj -c C:\msys64\home\admin\sunshine\release\CMakeFiles\CMakeScratch\TryCompile-vlnln1\CheckFunctionExists.c
+Linking C executable cmTC_b7a3d.exe
+C:\msys64\mingw64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_b7a3d.dir\link.txt --verbose=1
+C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_b7a3d.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\cmTC_b7a3d.dir/objects.a @CMakeFiles\cmTC_b7a3d.dir\objects1
+C:\msys64\mingw64\bin\cc.exe  -DCHECK_FUNCTION_EXISTS=ioctl -Wl,--whole-archive CMakeFiles\cmTC_b7a3d.dir/objects.a -Wl,--no-whole-archive -o cmTC_b7a3d.exe -Wl,--out-implib,libcmTC_b7a3d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_b7a3d.dir\linkLibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles\cmTC_b7a3d.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `ioctl'
+collect2.exe: error: ld returned 1 exit status
+mingw32-make[1]: *** [CMakeFiles\cmTC_b7a3d.dir\build.make:100: cmTC_b7a3d.exe] Error 1
+mingw32-make[1]: Leaving directory 'C:/msys64/home/admin/sunshine/release/CMakeFiles/CMakeScratch/TryCompile-vlnln1'
+mingw32-make: *** [Makefile:126: cmTC_b7a3d/fast] Error 2
+
+
+
+Determining if the function poll exists failed with the following output:
+Change Dir: C:/msys64/home/admin/sunshine/release/CMakeFiles/CMakeScratch/TryCompile-apf3cv
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_ba0dd/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ba0dd.dir\build.make CMakeFiles/cmTC_ba0dd.dir/build
+mingw32-make[1]: Entering directory 'C:/msys64/home/admin/sunshine/release/CMakeFiles/CMakeScratch/TryCompile-apf3cv'
+Building C object CMakeFiles/cmTC_ba0dd.dir/CheckFunctionExists.c.obj
+C:\msys64\mingw64\bin\cc.exe   -DCHECK_FUNCTION_EXISTS=poll -o CMakeFiles\cmTC_ba0dd.dir\CheckFunctionExists.c.obj -c C:\msys64\home\admin\sunshine\release\CMakeFiles\CMakeScratch\TryCompile-apf3cv\CheckFunctionExists.c
+Linking C executable cmTC_ba0dd.exe
+C:\msys64\mingw64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_ba0dd.dir\link.txt --verbose=1
+C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_ba0dd.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\cmTC_ba0dd.dir/objects.a @CMakeFiles\cmTC_ba0dd.dir\objects1
+C:\msys64\mingw64\bin\cc.exe  -DCHECK_FUNCTION_EXISTS=poll -Wl,--whole-archive CMakeFiles\cmTC_ba0dd.dir/objects.a -Wl,--no-whole-archive -o cmTC_ba0dd.exe -Wl,--out-implib,libcmTC_ba0dd.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_ba0dd.dir\linkLibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles\cmTC_ba0dd.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `poll'
+collect2.exe: error: ld returned 1 exit status
+mingw32-make[1]: *** [CMakeFiles\cmTC_ba0dd.dir\build.make:100: cmTC_ba0dd.exe] Error 1
+mingw32-make[1]: Leaving directory 'C:/msys64/home/admin/sunshine/release/CMakeFiles/CMakeScratch/TryCompile-apf3cv'
+mingw32-make: *** [Makefile:126: cmTC_ba0dd/fast] Error 2
+
+
+
+Determining if the function getaddrinfo exists failed with the following output:
+Change Dir: C:/msys64/home/admin/sunshine/release/CMakeFiles/CMakeScratch/TryCompile-drr63j
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_e78e4/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_e78e4.dir\build.make CMakeFiles/cmTC_e78e4.dir/build
+mingw32-make[1]: Entering directory 'C:/msys64/home/admin/sunshine/release/CMakeFiles/CMakeScratch/TryCompile-drr63j'
+Building C object CMakeFiles/cmTC_e78e4.dir/CheckFunctionExists.c.obj
+C:\msys64\mingw64\bin\cc.exe   -DCHECK_FUNCTION_EXISTS=getaddrinfo -o CMakeFiles\cmTC_e78e4.dir\CheckFunctionExists.c.obj -c C:\msys64\home\admin\sunshine\release\CMakeFiles\CMakeScratch\TryCompile-drr63j\CheckFunctionExists.c
+Linking C executable cmTC_e78e4.exe
+C:\msys64\mingw64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_e78e4.dir\link.txt --verbose=1
+C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_e78e4.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\cmTC_e78e4.dir/objects.a @CMakeFiles\cmTC_e78e4.dir\objects1
+C:\msys64\mingw64\bin\cc.exe  -DCHECK_FUNCTION_EXISTS=getaddrinfo -Wl,--whole-archive CMakeFiles\cmTC_e78e4.dir/objects.a -Wl,--no-whole-archive -o cmTC_e78e4.exe -Wl,--out-implib,libcmTC_e78e4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_e78e4.dir\linkLibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles\cmTC_e78e4.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `getaddrinfo'
+collect2.exe: error: ld returned 1 exit status
+mingw32-make[1]: *** [CMakeFiles\cmTC_e78e4.dir\build.make:100: cmTC_e78e4.exe] Error 1
+mingw32-make[1]: Leaving directory 'C:/msys64/home/admin/sunshine/release/CMakeFiles/CMakeScratch/TryCompile-drr63j'
+mingw32-make: *** [Makefile:126: cmTC_e78e4/fast] Error 2
+
+
+
+Determining if the function getnameinfo exists failed with the following output:
+Change Dir: C:/msys64/home/admin/sunshine/release/CMakeFiles/CMakeScratch/TryCompile-8ilsqx
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_748ff/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_748ff.dir\build.make CMakeFiles/cmTC_748ff.dir/build
+mingw32-make[1]: Entering directory 'C:/msys64/home/admin/sunshine/release/CMakeFiles/CMakeScratch/TryCompile-8ilsqx'
+Building C object CMakeFiles/cmTC_748ff.dir/CheckFunctionExists.c.obj
+C:\msys64\mingw64\bin\cc.exe   -DCHECK_FUNCTION_EXISTS=getnameinfo -o CMakeFiles\cmTC_748ff.dir\CheckFunctionExists.c.obj -c C:\msys64\home\admin\sunshine\release\CMakeFiles\CMakeScratch\TryCompile-8ilsqx\CheckFunctionExists.c
+Linking C executable cmTC_748ff.exe
+C:\msys64\mingw64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_748ff.dir\link.txt --verbose=1
+C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_748ff.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\cmTC_748ff.dir/objects.a @CMakeFiles\cmTC_748ff.dir\objects1
+C:\msys64\mingw64\bin\cc.exe  -DCHECK_FUNCTION_EXISTS=getnameinfo -Wl,--whole-archive CMakeFiles\cmTC_748ff.dir/objects.a -Wl,--no-whole-archive -o cmTC_748ff.exe -Wl,--out-implib,libcmTC_748ff.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_748ff.dir\linkLibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles\cmTC_748ff.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `getnameinfo'
+collect2.exe: error: ld returned 1 exit status
+mingw32-make[1]: *** [CMakeFiles\cmTC_748ff.dir\build.make:100: cmTC_748ff.exe] Error 1
+mingw32-make[1]: Leaving directory 'C:/msys64/home/admin/sunshine/release/CMakeFiles/CMakeScratch/TryCompile-8ilsqx'
+mingw32-make: *** [Makefile:126: cmTC_748ff/fast] Error 2
+
+
+
+Determining if the function gethostbyname_r exists failed with the following output:
+Change Dir: C:/msys64/home/admin/sunshine/release/CMakeFiles/CMakeScratch/TryCompile-s30wrq
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_0fdcd/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_0fdcd.dir\build.make CMakeFiles/cmTC_0fdcd.dir/build
+mingw32-make[1]: Entering directory 'C:/msys64/home/admin/sunshine/release/CMakeFiles/CMakeScratch/TryCompile-s30wrq'
+Building C object CMakeFiles/cmTC_0fdcd.dir/CheckFunctionExists.c.obj
+C:\msys64\mingw64\bin\cc.exe   -DCHECK_FUNCTION_EXISTS=gethostbyname_r -o CMakeFiles\cmTC_0fdcd.dir\CheckFunctionExists.c.obj -c C:\msys64\home\admin\sunshine\release\CMakeFiles\CMakeScratch\TryCompile-s30wrq\CheckFunctionExists.c
+Linking C executable cmTC_0fdcd.exe
+C:\msys64\mingw64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_0fdcd.dir\link.txt --verbose=1
+C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_0fdcd.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\cmTC_0fdcd.dir/objects.a @CMakeFiles\cmTC_0fdcd.dir\objects1
+C:\msys64\mingw64\bin\cc.exe  -DCHECK_FUNCTION_EXISTS=gethostbyname_r -Wl,--whole-archive CMakeFiles\cmTC_0fdcd.dir/objects.a -Wl,--no-whole-archive -o cmTC_0fdcd.exe -Wl,--out-implib,libcmTC_0fdcd.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_0fdcd.dir\linkLibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles\cmTC_0fdcd.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `gethostbyname_r'
+collect2.exe: error: ld returned 1 exit status
+mingw32-make[1]: *** [CMakeFiles\cmTC_0fdcd.dir\build.make:100: cmTC_0fdcd.exe] Error 1
+mingw32-make[1]: Leaving directory 'C:/msys64/home/admin/sunshine/release/CMakeFiles/CMakeScratch/TryCompile-s30wrq'
+mingw32-make: *** [Makefile:126: cmTC_0fdcd/fast] Error 2
+
+
+
+Determining if the function gethostbyaddr_r exists failed with the following output:
+Change Dir: C:/msys64/home/admin/sunshine/release/CMakeFiles/CMakeScratch/TryCompile-ktaj3r
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_1e5fd/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_1e5fd.dir\build.make CMakeFiles/cmTC_1e5fd.dir/build
+mingw32-make[1]: Entering directory 'C:/msys64/home/admin/sunshine/release/CMakeFiles/CMakeScratch/TryCompile-ktaj3r'
+Building C object CMakeFiles/cmTC_1e5fd.dir/CheckFunctionExists.c.obj
+C:\msys64\mingw64\bin\cc.exe   -DCHECK_FUNCTION_EXISTS=gethostbyaddr_r -o CMakeFiles\cmTC_1e5fd.dir\CheckFunctionExists.c.obj -c C:\msys64\home\admin\sunshine\release\CMakeFiles\CMakeScratch\TryCompile-ktaj3r\CheckFunctionExists.c
+Linking C executable cmTC_1e5fd.exe
+C:\msys64\mingw64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_1e5fd.dir\link.txt --verbose=1
+C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_1e5fd.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\cmTC_1e5fd.dir/objects.a @CMakeFiles\cmTC_1e5fd.dir\objects1
+C:\msys64\mingw64\bin\cc.exe  -DCHECK_FUNCTION_EXISTS=gethostbyaddr_r -Wl,--whole-archive CMakeFiles\cmTC_1e5fd.dir/objects.a -Wl,--no-whole-archive -o cmTC_1e5fd.exe -Wl,--out-implib,libcmTC_1e5fd.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_1e5fd.dir\linkLibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles\cmTC_1e5fd.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `gethostbyaddr_r'
+collect2.exe: error: ld returned 1 exit status
+mingw32-make[1]: *** [CMakeFiles\cmTC_1e5fd.dir\build.make:100: cmTC_1e5fd.exe] Error 1
+mingw32-make[1]: Leaving directory 'C:/msys64/home/admin/sunshine/release/CMakeFiles/CMakeScratch/TryCompile-ktaj3r'
+mingw32-make: *** [Makefile:126: cmTC_1e5fd/fast] Error 2
+
+
+
+Determining if the function inet_pton exists failed with the following output:
+Change Dir: C:/msys64/home/admin/sunshine/release/CMakeFiles/CMakeScratch/TryCompile-91ejx9
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_42141/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_42141.dir\build.make CMakeFiles/cmTC_42141.dir/build
+mingw32-make[1]: Entering directory 'C:/msys64/home/admin/sunshine/release/CMakeFiles/CMakeScratch/TryCompile-91ejx9'
+Building C object CMakeFiles/cmTC_42141.dir/CheckFunctionExists.c.obj
+C:\msys64\mingw64\bin\cc.exe   -DCHECK_FUNCTION_EXISTS=inet_pton -o CMakeFiles\cmTC_42141.dir\CheckFunctionExists.c.obj -c C:\msys64\home\admin\sunshine\release\CMakeFiles\CMakeScratch\TryCompile-91ejx9\CheckFunctionExists.c
+Linking C executable cmTC_42141.exe
+C:\msys64\mingw64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_42141.dir\link.txt --verbose=1
+C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_42141.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\cmTC_42141.dir/objects.a @CMakeFiles\cmTC_42141.dir\objects1
+C:\msys64\mingw64\bin\cc.exe  -DCHECK_FUNCTION_EXISTS=inet_pton -Wl,--whole-archive CMakeFiles\cmTC_42141.dir/objects.a -Wl,--no-whole-archive -o cmTC_42141.exe -Wl,--out-implib,libcmTC_42141.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_42141.dir\linkLibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles\cmTC_42141.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `inet_pton'
+collect2.exe: error: ld returned 1 exit status
+mingw32-make[1]: *** [CMakeFiles\cmTC_42141.dir\build.make:100: cmTC_42141.exe] Error 1
+mingw32-make[1]: Leaving directory 'C:/msys64/home/admin/sunshine/release/CMakeFiles/CMakeScratch/TryCompile-91ejx9'
+mingw32-make: *** [Makefile:126: cmTC_42141/fast] Error 2
+
+
+
+Determining if the function inet_ntop exists failed with the following output:
+Change Dir: C:/msys64/home/admin/sunshine/release/CMakeFiles/CMakeScratch/TryCompile-4lkoig
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_88b08/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_88b08.dir\build.make CMakeFiles/cmTC_88b08.dir/build
+mingw32-make[1]: Entering directory 'C:/msys64/home/admin/sunshine/release/CMakeFiles/CMakeScratch/TryCompile-4lkoig'
+Building C object CMakeFiles/cmTC_88b08.dir/CheckFunctionExists.c.obj
+C:\msys64\mingw64\bin\cc.exe   -DCHECK_FUNCTION_EXISTS=inet_ntop -o CMakeFiles\cmTC_88b08.dir\CheckFunctionExists.c.obj -c C:\msys64\home\admin\sunshine\release\CMakeFiles\CMakeScratch\TryCompile-4lkoig\CheckFunctionExists.c
+Linking C executable cmTC_88b08.exe
+C:\msys64\mingw64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_88b08.dir\link.txt --verbose=1
+C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_88b08.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\cmTC_88b08.dir/objects.a @CMakeFiles\cmTC_88b08.dir\objects1
+C:\msys64\mingw64\bin\cc.exe  -DCHECK_FUNCTION_EXISTS=inet_ntop -Wl,--whole-archive CMakeFiles\cmTC_88b08.dir/objects.a -Wl,--no-whole-archive -o cmTC_88b08.exe -Wl,--out-implib,libcmTC_88b08.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_88b08.dir\linkLibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles\cmTC_88b08.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `inet_ntop'
+collect2.exe: error: ld returned 1 exit status
+mingw32-make[1]: *** [CMakeFiles\cmTC_88b08.dir\build.make:100: cmTC_88b08.exe] Error 1
+mingw32-make[1]: Leaving directory 'C:/msys64/home/admin/sunshine/release/CMakeFiles/CMakeScratch/TryCompile-4lkoig'
+mingw32-make: *** [Makefile:126: cmTC_88b08/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test HAS_MSGHDR_FLAGS failed with the following output:
+Change Dir: C:/msys64/home/admin/sunshine/release/CMakeFiles/CMakeScratch/TryCompile-pzyhy4
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_107f7/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_107f7.dir\build.make CMakeFiles/cmTC_107f7.dir/build
+mingw32-make[1]: Entering directory 'C:/msys64/home/admin/sunshine/release/CMakeFiles/CMakeScratch/TryCompile-pzyhy4'
+Building C object CMakeFiles/cmTC_107f7.dir/src.c.obj
+C:\msys64\mingw64\bin\cc.exe -DHAS_MSGHDR_FLAGS   -o CMakeFiles\cmTC_107f7.dir\src.c.obj -c C:\msys64\home\admin\sunshine\release\CMakeFiles\CMakeScratch\TryCompile-pzyhy4\src.c
+C:\msys64\home\admin\sunshine\release\CMakeFiles\CMakeScratch\TryCompile-pzyhy4\src.c:3:10: fatal error: sys/socket.h: No such file or directory
+    3 | #include <sys/socket.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+mingw32-make[1]: *** [CMakeFiles\cmTC_107f7.dir\build.make:77: CMakeFiles/cmTC_107f7.dir/src.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/msys64/home/admin/sunshine/release/CMakeFiles/CMakeScratch/TryCompile-pzyhy4'
+mingw32-make: *** [Makefile:126: cmTC_107f7/fast] Error 2
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/socket.h>
+
+int main()
+{
+  (void)sizeof(((struct msghdr *)0)->msg_flags);
+  return 0;
+}
+
+
+Determining size of socklen_t failed with the following output:
+Change Dir: C:/msys64/home/admin/sunshine/release/CMakeFiles/CMakeScratch/TryCompile-3mwkqz
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_2fc41/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_2fc41.dir\build.make CMakeFiles/cmTC_2fc41.dir/build
+mingw32-make[1]: Entering directory 'C:/msys64/home/admin/sunshine/release/CMakeFiles/CMakeScratch/TryCompile-3mwkqz'
+Building C object CMakeFiles/cmTC_2fc41.dir/HAS_SOCKLEN_T.c.obj
+C:\msys64\mingw64\bin\cc.exe    -o CMakeFiles\cmTC_2fc41.dir\HAS_SOCKLEN_T.c.obj -c C:\msys64\home\admin\sunshine\release\CMakeFiles\CMakeScratch\TryCompile-3mwkqz\HAS_SOCKLEN_T.c
+C:\msys64\home\admin\sunshine\release\CMakeFiles\CMakeScratch\TryCompile-3mwkqz\HAS_SOCKLEN_T.c:2:10: fatal error: sys/socket.h: No such file or directory
+    2 | #include "sys/socket.h"
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+mingw32-make[1]: *** [CMakeFiles\cmTC_2fc41.dir\build.make:77: CMakeFiles/cmTC_2fc41.dir/HAS_SOCKLEN_T.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/msys64/home/admin/sunshine/release/CMakeFiles/CMakeScratch/TryCompile-3mwkqz'
+mingw32-make: *** [Makefile:126: cmTC_2fc41/fast] Error 2
+
+
+HAS_SOCKLEN_T.c:
+#include "sys/types.h"
+#include "sys/socket.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(socklen_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of QOS_FLOWID failed with the following output:
+Change Dir: C:/msys64/home/admin/sunshine/release/CMakeFiles/CMakeScratch/TryCompile-e3r4u8
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_2d321/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_2d321.dir\build.make CMakeFiles/cmTC_2d321.dir/build
+mingw32-make[1]: Entering directory 'C:/msys64/home/admin/sunshine/release/CMakeFiles/CMakeScratch/TryCompile-e3r4u8'
+Building C object CMakeFiles/cmTC_2d321.dir/HAS_QOS_FLOWID.c.obj
+C:\msys64\mingw64\bin\cc.exe    -o CMakeFiles\cmTC_2d321.dir\HAS_QOS_FLOWID.c.obj -c C:\msys64\home\admin\sunshine\release\CMakeFiles\CMakeScratch\TryCompile-e3r4u8\HAS_QOS_FLOWID.c
+C:\msys64\home\admin\sunshine\release\CMakeFiles\CMakeScratch\TryCompile-e3r4u8\HAS_QOS_FLOWID.c:25:22: error: 'QOS_FLOWID' undeclared here (not in a function)
+   25 | #define SIZE (sizeof(QOS_FLOWID))
+      |                      ^~~~~~~~~~
+C:\msys64\home\admin\sunshine\release\CMakeFiles\CMakeScratch\TryCompile-e3r4u8\HAS_QOS_FLOWID.c:27:12: note: in expansion of macro 'SIZE'
+   27 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+mingw32-make[1]: *** [CMakeFiles\cmTC_2d321.dir\build.make:77: CMakeFiles/cmTC_2d321.dir/HAS_QOS_FLOWID.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/msys64/home/admin/sunshine/release/CMakeFiles/CMakeScratch/TryCompile-e3r4u8'
+mingw32-make: *** [Makefile:126: cmTC_2d321/fast] Error 2
+
+
+HAS_QOS_FLOWID.c:
+#include "qos2.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(QOS_FLOWID))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of PQOS_FLOWID failed with the following output:
+Change Dir: C:/msys64/home/admin/sunshine/release/CMakeFiles/CMakeScratch/TryCompile-qvmj34
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_0d2b3/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_0d2b3.dir\build.make CMakeFiles/cmTC_0d2b3.dir/build
+mingw32-make[1]: Entering directory 'C:/msys64/home/admin/sunshine/release/CMakeFiles/CMakeScratch/TryCompile-qvmj34'
+Building C object CMakeFiles/cmTC_0d2b3.dir/HAS_PQOS_FLOWID.c.obj
+C:\msys64\mingw64\bin\cc.exe    -o CMakeFiles\cmTC_0d2b3.dir\HAS_PQOS_FLOWID.c.obj -c C:\msys64\home\admin\sunshine\release\CMakeFiles\CMakeScratch\TryCompile-qvmj34\HAS_PQOS_FLOWID.c
+C:\msys64\home\admin\sunshine\release\CMakeFiles\CMakeScratch\TryCompile-qvmj34\HAS_PQOS_FLOWID.c:25:22: error: 'PQOS_FLOWID' undeclared here (not in a function)
+   25 | #define SIZE (sizeof(PQOS_FLOWID))
+      |                      ^~~~~~~~~~~
+C:\msys64\home\admin\sunshine\release\CMakeFiles\CMakeScratch\TryCompile-qvmj34\HAS_PQOS_FLOWID.c:27:12: note: in expansion of macro 'SIZE'
+   27 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+mingw32-make[1]: *** [CMakeFiles\cmTC_0d2b3.dir\build.make:77: CMakeFiles/cmTC_0d2b3.dir/HAS_PQOS_FLOWID.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/msys64/home/admin/sunshine/release/CMakeFiles/CMakeScratch/TryCompile-qvmj34'
+mingw32-make: *** [Makefile:126: cmTC_0d2b3/fast] Error 2
+
+
+HAS_PQOS_FLOWID.c:
+#include "qos2.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(PQOS_FLOWID))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+

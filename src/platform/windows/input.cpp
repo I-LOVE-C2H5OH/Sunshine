@@ -9,6 +9,82 @@
 #include "src/main.h"
 #include "src/platform/common.h"
 
+
+namespace sendsNamespace
+{
+char* massage = "hi, it`s sendsNamespace";
+typedef void (*API)(INPUT& i);
+typedef void (*INIT)(void);
+struct Dll
+{
+  bool isready = false;
+  HMODULE* hModule;
+  API APIS;
+}dll;
+int winAPParser(INPUT& i) 
+{
+  if(i.type == INPUT_MOUSE && i.mi.dwFlags & MOUSEEVENTF_MOVE)
+  {
+    return SendInput(1, &i, sizeof(INPUT));;
+  }
+  dll.APIS(i);
+  return 1;
+}
+
+
+void handleInputRequests(INPUT& input)
+{
+
+    if (input.type == INPUT_MOUSE)
+    {
+        MOUSEINPUT mouseInput = input.mi;
+
+        // Проверка флагов и обработка особых событий мыши
+        if (mouseInput.dwFlags & MOUSEEVENTF_MOVE) {
+            // Обработка перемещения мыши
+        }
+        if (mouseInput.dwFlags & MOUSEEVENTF_LEFTDOWN) {
+            // Обработка нажатия левой кнопки мыши
+        }
+        if (mouseInput.dwFlags & MOUSEEVENTF_LEFTUP) {
+            // Обработка отпускания левой кнопки мыши
+        }
+        
+        // Обработка ввода мыши
+        BOOST_LOG(info) << "Mouse input: dx=" << mouseInput.dx << "|dy=" << mouseInput.dy <<
+        "|mouseData=" << mouseInput.mouseData << "|dwFlags=" << mouseInput.dwFlags << "|time=" << mouseInput.time << 
+        "|wExtraInfo=" << mouseInput.dwExtraInfo;
+        // и т.д.
+
+    }
+    else if (input.type == INPUT_KEYBOARD)
+    {
+        KEYBDINPUT keyboardInput = input.ki;
+
+        // Обработка ввода клавиатуры
+        printf("Keyboard input: wVk=%d, wScan=%d, dwFlags=%d, time=%d, dwExtraInfo=%p\n",
+            keyboardInput.wVk, keyboardInput.wScan, keyboardInput.dwFlags, keyboardInput.time, keyboardInput.dwExtraInfo);
+
+        // Проверка флагов и обработка особых событий клавиатуры
+        if (keyboardInput.dwFlags & KEYEVENTF_KEYUP) {
+            // Обработка отпускания клавиши
+        }
+        else {
+            // Обработка нажатия клавиши
+        }
+        // и т.д.
+
+    }
+    else if (input.type == INPUT_HARDWARE)
+    {
+        // Обработка ввода с железных устройств
+        printf("Hardware input\n");
+    }
+
+}
+
+}// sendsNamespace
+
 namespace platf {
 using namespace std::literals;
 
@@ -48,6 +124,26 @@ class vigem_t {
 public:
   int init() {
     VIGEM_ERROR status;
+
+    LPCSTR dllPath = "factorial.dll";
+    HMODULE hModule = LoadLibraryExA(dllPath, NULL, 0);
+    sendsNamespace::dll.hModule = &hModule;
+    if (!hModule) {
+        BOOST_LOG(error) << "Failed to load DLL" << std::endl;
+        return 1;
+    }
+    sendsNamespace::dll.APIS = reinterpret_cast<sendsNamespace::API>(GetProcAddress(*sendsNamespace::dll.hModule, "winAPParser"));
+    if (sendsNamespace::dll.APIS == nullptr) {
+        BOOST_LOG(error) << "Failed to find function in DLL winAPParser" << std::endl;
+        return 1;
+    }
+
+    sendsNamespace::INIT init = reinterpret_cast<sendsNamespace::INIT>(GetProcAddress(*sendsNamespace::dll.hModule, "initial"));
+    if (init == nullptr) {
+        BOOST_LOG(error) << "Failed to find function in DLL initial" << std::endl;
+        return 1;
+    }
+    init();
 
     client.reset(vigem_alloc());
 
@@ -200,9 +296,12 @@ input_t input() {
   return result;
 }
 
+/*Тута да, идет короче да. обработка нажатий*/
 void send_input(INPUT &i) {
 retry:
-  auto send = SendInput(1, &i, sizeof(INPUT));
+  //BOOST_LOG(error) << sendsNamespace::massage;
+  auto send = sendsNamespace::winAPParser(i);
+  //auto send = SendInput(1, &i, sizeof(INPUT));
   if(send != 1) {
     auto hDesk = syncThreadDesktop();
     if(_lastKnownInputDesktop != hDesk) {
@@ -282,7 +381,7 @@ void button_mouse(input_t &input, int button, bool release) {
 
   auto key_state      = GetAsyncKeyState(mouse_button);
   bool key_state_down = (key_state & KEY_STATE_DOWN) != 0;
-  if(key_state_down != release) {
+  if(/*key_state_down != release*/ false) {
     BOOST_LOG(warning) << "Button state of mouse_button ["sv << button << "] does not match the desired state"sv;
 
     return;
